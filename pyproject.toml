@@ -1,0 +1,17 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.12.4",
+    "google-genai>=1.43.0",
+    "mcp[cli,dev]>=1.16.0",
+    "pillow>=11.3.0",
+    "pyautogui>=0.9.54",
+    "python-dotenv>=1.1.1",
+    "pywin32>=311",
+    "pywinauto>=0.6.9",
+    "uvicorn>=0.37.0",
+]
